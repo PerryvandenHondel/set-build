@@ -6,6 +6,7 @@ Create a build unit UBuild.pas; update the build number at every compile run.
 Usage:
 
 compile.sh
+<rawtext>
 #!/bin/bash
 
 ##
@@ -25,7 +26,7 @@ fpc scmod.pas -obin/scmod
 ## Remove the object file.
 ##
 rm bin/scmod.o
-
+</rawtext>
 
 In scmod.pas
 
